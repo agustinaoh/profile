@@ -1,0 +1,92 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  text-align: center;
+  font-family: 'Bitter', serif;
+}
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: #7c274b;
+  font-weight: 900;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #99867D
+}
+
+p {
+  color: #16271F
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fb9da1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  /* width: 40%; */
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+#cutie-round {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.pink-btn {
+  padding: 8px 14px;
+  background-color: #0A6871;
+  color: white;
+  border-radius: 4px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+  .pink-btn:hover {
+    background-color:#357f86;
+  }
+
+  #social {
+    font-size: 36px;
+  }
